@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.carolpesena.watchdogsapp.LoginActivity">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:text="@string/usu_rio"
+        android:paddingLeft="20dp"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/user_login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:textSize="20dp"
+        android:layout_gravity="left"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:textSize="15dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/senha" />
+
+    <EditText
+        android:id="@+id/pass_login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:textSize="20dp"
+        android:layout_gravity="left"
+        android:inputType="textPassword" />
+
+    <CheckBox
+        android:id="@+id/show_password"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/mostrar_senha"
+        android:onClick="onClickShowPassword"
+        />
+
+    <CheckBox
+        android:id="@+id/save_password"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Salvar senha"
+        />
+
+    <Button
+        android:id="@+id/enter_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/entrar"
+        android:textSize="15dp" />
+
+</LinearLayout>

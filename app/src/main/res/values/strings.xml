@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">WatchDogsApp</string>
+    <string name="ver_sensores">Ver sensores</string>
+    <string name="configurações">Configurações</string>
+    <string name="title_activity_configurations">ConfigurationsActivity</string>
+    <string name="title_activity_view_sensors">ViewSensorsActivity</string>
+    <string name="watch_dogs">Watch Dogs</string>
+    <string name="nome_de_usu_rio">Nome de usuário</string>
+    <string name="senha">Senha</string>
+    <string name="mostrar_senha">Mostrar senha</string>
+    <string name="usu_rio">Usuário</string>
+    <string name="entrar">Entrar</string>
+    <string name="agendar">Agendar</string>
+    <string name="hor_rio_de_ativa_o">Horário de ativação</string>
+    <string name="hor_rio_de_desativa_o">Horário de desativação</string>
+    <string name="salvar">Salvar agendamento</string>
+    <string name="configurar_sensores">Configurar sensores</string>
+    <string name="habilitar_ativa_o_autom_tica">Habilitar ativação automática</string>
+    <string name="button_activated">Botão de ativação</string>
+    <string name="system_activated">Sistema ativado</string>
+    <string name="system_deactivated">Sistema desativado</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.carolpesena.watchdogsapp.MainActivity">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold"
+        android:text="@string/watch_dogs" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:onClick="onToggleClicked"
+        android:text="@string/button_activated"
+        android:textOn="@string/system_activated"
+        android:textOff="@string/system_deactivated"  />
+
+    <Button
+        android:id="@+id/button_schedule"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="@string/agendar"
+        android:textSize = "15sp"
+        android:background="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/button_configurations"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/configurações"
+        android:textSize = "15sp"
+        android:background="@color/colorAccent" />
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.carolpesena.watchdogsapp.SensorsActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Selecione os sensores que devem ficar ativos"
+        android:textSize="15dp"
+        android:layout_marginTop="30dp"/>
+
+    <CheckBox
+        android:id="@+id/check_livingroomwindow_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Janela da sala de estar" />
+
+    <CheckBox
+        android:id="@+id/check_room1window_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Janela do Quarto 1" />
+
+    <CheckBox
+        android:id="@+id/check_room2window_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Janela do Quarto 2" />
+
+    <CheckBox
+        android:id="@+id/check_livingroom_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sala de estar" />
+
+    <CheckBox
+        android:id="@+id/check_room1_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quarto 1"/>
+
+    <CheckBox
+        android:id="@+id/check_room2_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quarto 2"/>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmar" />
+
+</LinearLayout>
